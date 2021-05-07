@@ -1,0 +1,461 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body{
+font-family: 'Metal Mania'; 
+}
+
+.navbar-brand{
+  font-weight: 700; 
+  color: white !important;
+}
+
+.navbar-brand span{
+  color: red
+}
+
+.navbar {
+  background-color:black ;
+  height: 70px;
+  position: top;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.nav-link:hover{
+  color: red !important;
+  transition: 2s ;
+  
+}
+#banner{
+ background-image: url("./show.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.texto_banner{
+  width: 800px;
+  max-width: 100%; 
+  border-color: black;
+
+}
+.banner_h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px
+  
+}
+.banner_h1 span{
+  color: red !important;
+  margin-bottom: 70px;
+} 
+
+ .banner_h2{
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   font-family:' Metal Mania';
+   margin-bottom: 50px;
+   padding: 25px;
+ } 
+
+.btn-primary{
+  background-color: red;
+  border-color: black;
+  border-radius: 30px;
+  padding: 10px;
+  color: black;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+ .btn-primary:hover{
+  transition: 2s ;
+  background-color: black;
+  color: red;
+  border-color: red;
+  box-shadow: 20px 20px 20px rgb(7, 7, 7);
+  
+}  
+
+#secao{
+  background-color: rgb(226, 225, 225);
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.secao2{
+  font-family:'metal mania',serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+} 
+.secao2 span{
+  color: red;
+  
+}
+  
+.secao2-text{
+  width: 800px;
+  max-width: 100%; 
+  color: black;
+  font-size: 20px;
+  font-family:' Merriweather',serif;
+  margin-bottom: 50px;
+}
+.traco1{
+background-color: red;
+height: 3px !important;
+opacity: 1 !important;
+width: 250px;
+border-radius: 10px;
+margin-left: 0%;
+margin-bottom:  47px;
+  
+}
+#servicos{
+  text-align: center;
+  box-shadow: 23px 23px 23px black;
+  
+
+}
+#servicos h3{
+  font-family:'metal mania';
+}
+#servicos h2 span{
+  color: red;
+  
+  
+}
+#servicos span{
+  color: red;
+ 
+}  
+
+#servicos .traco1{
+background-color: red;
+height: 3px !important;
+opacity: 1 !important;
+width: 190px;
+border-radius: 10px;
+margin-left: 42%;
+margin-bottom:  47px;
+}
+#servicos  h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+ 
+#servicos .itens-servicos{
+  padding: 20px;
+}
+#servicos .itens-servicos .icone{
+  font-size:60px ;
+  color: red;
+}
+
+#servicos .itens-servicos h4{
+  margin-top: 10px;
+}
+#servicos .itens-servicos p{
+  font-family: "Merriweather", serif;
+  color: grey;
+  margin-top: 10px;
+}
+.itens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 800px;
+ margin: auto;
+
+ 
+}
+#galeria{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.imagem-portifolio{
+  width: 33.333333%;
+  height: 300px;
+ border: 1px solid rgb(88, 7, 7);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:auto;
+ 
+  }
+  .imagem-portifolio:hover{
+    opacity: 0.1;
+
+  }
+#img-1{
+   background-image: url("./img-1.webp");
+}
+
+#img-2{
+  background-image: url("./img-2.webp");
+}
+#img-3{
+  background-image: url("./img-3.webp");
+}
+#img-4{
+  background-image: url("./img-4.jpg");
+}
+#img-5{
+  background-image: url("./img-5.jpg");
+}
+#img-6{
+  background-image: url("./img-6.jpg");
+}
+
+#p1{
+  background-color:black;
+  color: rgb(248, 248, 248);
+  width: 100%;
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 59px;
+
+}
+#p1 .secao2{
+  color: white;
+  margin-top: 30px;
+} 
+#p1 .secao2-text{
+  color: white;
+  margin-bottom: 10px;
+}
+#p1 .btn-primary{
+  background-color: red;
+  border-color: black;
+  border-radius: 30px;
+  padding: 10px;
+  color: black;
+  margin: auto;
+  
+}
+ #p1 .btn-primary:hover{
+  transition: 2s ;
+  background-color: rgb(66, 64, 64);
+  color: red;
+  border-color: red;
+  box-shadow: 10px 10px 10px rgb(248, 248, 248);
+}
+ 
+#contatos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  padding: 120px;
+  border-radius: 2rem;
+  box-shadow: 30px  30px 30px lightgray;
+  
+
+}
+#contatos .container{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+    
+}
+#contatos .secao2{
+  margin-top: -53px;
+
+}
+#contatos h4{
+  font-size: 32px;
+}
+  #contatos p{
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  margin-top: 60px;
+}
+#contatos i{
+  font-size: 60px;
+  color: grey;
+}
+#contatos .formas-contato{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#contatos .formas-contato-informacoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#rodape{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:black;
+padding: 25px;
+}
+#rodape span{
+  font-size: 13px;
+  color: rgb(192, 183, 183);
+
+}
+#banner-lancamento{
+  width: 100%;
+  height: 70vh;
+  background-image: url("./1336905.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#biografia{
+  width: 100%;
+  height: 33vw;
+  background-color: black;
+  
+}
+.conteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.texto-biografia{
+  width: 50%;
+}
+.texto-biografia h3{
+  color: white;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.texto-biografia p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 95%;
+  margin-bottom: -81px;
+  padding: 17px;
+}
+#biografia .btn-primary{
+  margin-left: 43%;
+    margin-top: 126px;
+}
+
+ .img{
+  background-image: url("./especial-ironmaiden-capa.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 312px;
+  width: 36%;
+  margin-top: 42px;
+  
+}
+#videos{
+  width: 100%;
+  height: 404px;
+  border-radius: 32px;
+  box-shadow: 30px  30px 30px lightgray;
+  background-color: white;
+   padding: 13px;
+}
+#videos .videos{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction:column;
+  padding-top: 25px;
+}
+.video-biografia{
+  width: 40%;
+  height: 234px;
+  box-shadow: 30px  30px 30px lightgray;
+  border-radius: 23px;
+  background-color: grey;
+}
+.yt{
+  margin-top: 10px;
+  height: 196px;
+  width: 435px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cds{
+ width: 100%;
+ height: 222vw;
+ background-color:white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+
+}
+#cds h2{
+  font-size: 75px;
+}
+
+.tabela{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1px;
+  background-color: black;
+  margin-top: 23px;
+  border-radius: 30px;
+  box-shadow: 30px  30px 30px lightgray;
+  color: white;
+}
+
+.tabela th{
+  font-size: 25px;
+  border: solid 2px white;
+  
+}.tabela td{
+  border: solid 2px white;
+}
+.container-integrantes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background: rgb(251,63,63);
+  background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(0,0,0,1) 34%);
+  padding:155px;
+
+}
+.show2{ 
+  width: 100%;
+  height: 400px;
+
+}
+.container-integrantes h5{
+  font-size: 80px;
+}

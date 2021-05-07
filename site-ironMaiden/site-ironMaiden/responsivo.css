@@ -1,0 +1,156 @@
+@media (max-width: 1000px){
+    body{
+   
+    }  
+}
+
+@media (max-width: 500px){
+     .itens{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }  
+}
+@media (max-width: 500px){
+    #contatos{
+       padding: 0px;
+       flex-direction: column;
+   }  
+}
+@media (max-width: 500px){
+    #contatos .secao2{
+       padding: 0px;
+       margin-top: 48px;
+   }  
+}
+@media (max-width: 500px){
+    #contatos .container{
+        width: 354px;
+        padding: 0px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+   }  
+}
+@media (max-width: 500px){
+    .traco{
+        margin-left: 15%;
+   }  
+}
+@media (max-width: 500px){
+    .imagem-portifolio{
+        width: 100%;
+        height: 250px;
+   }  
+}
+@media (max-width: 500px){
+    .btn-primary {
+    margin-left: 34%;
+   }  
+}
+@media (max-width: 500px){
+        .navbar  {
+        background-color:ghostwhite ;
+        
+   }  
+}
+
+@media (max-width: 500px){
+    .navbar-brand{
+        color: black !important;
+    
+    }  
+}
+@media (max-width: 500px){
+    #banner-lancamento{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-position: top;
+    
+    }
+    }  
+ @media (max-width: 500px){
+        #banner-lancamento{  
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-position: top;
+        
+    }
+    }  
+
+    @media (max-width: 500px){
+        #banner-lancamento{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-position: top;
+                
+            
+    }
+    }  
+            
+@media (max-width: 500px ){
+        #biografia{
+        margin-top: -284px;
+        height: 205vw;
+
+
+        }
+        }  
+        
+@media (max-width: 500px){
+        .conteudo{
+        flex-wrap: wrap;
+                
+        }
+        }  
+
+@media (max-width: 500px){
+        .texto-biografia{
+        width: 100%;
+                    }
+                }  
+
+@media (max-width: 500px){
+        .img{
+         width: 100%;
+
+       }
+       }  
+@media (max-width: 500px){
+        .texto-biografia h3{
+         margin-top: 43px;
+        }
+       }
+@media (max-width: 500px){
+        .video-biografia{
+         width: 84%;
+        height: 240px;
+        }
+       }
+@media (max-width: 500px){
+        .video-biografia{
+         width: 84%;
+        height: 240px;
+        }
+       }
+ @media (max-width: 500px){
+        .yt{
+            width: 93%;
+            height: 200px;
+            margin-left: 9px;
+            margin-right: auto;
+        }
+       }
+       @media (max-width: 500px){
+        #cds{
+        width: auto;
+        height: auto;
+       }
+    }
+
+    @media (max-width: 500px){
+    #biografia .btn-primary {
+        margin-left: 37%
+    }
+}
